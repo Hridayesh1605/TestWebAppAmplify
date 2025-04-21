@@ -8,6 +8,7 @@ const App = () => {
   const [addItem,setaddItem] = useState([]);
 
   const add=(note)=>{
+    console.log("updated code")
     
     setaddItem((old)=>{
       return [
@@ -27,6 +28,7 @@ const App = () => {
     
 
   }
+  
   return (
     <>
     <Header/>
